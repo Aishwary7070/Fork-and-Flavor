@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/search.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+ul{
+    list-style: none;
+}
+p{
+    font-family: "Inika", serif;
+}
+#logo{
+    display: flex;
+
+}
+.logo-img{
+    height: 151px;
+    width: 184px;
+    filter: blur(4px);
+    z-index: 0;
+    position: absolute;
+    left: 111px;
+    top: 43px;
+    
+}
+.text-box{
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 77px;
+}
+.logo-text{
+    font-size:58.56px;
+    z-index: 1;
+    
+}
+.logo-text > span{
+    color: #C95A0A;
+    font-family: "Irish Grover", system-ui;
+}
+.logo-fork{
+    font-family: "Inder", sans-serif;
+}
+.logo-and{
+    font-family: "Inspiration", cursive;
+}
+.logo-flavor{
+    font-family: "Inika", serif;
+}
+
+#nav-bar{
+    display: flex;
+    gap: 59.83px;
+    max-width: 647.96px;
+    position: absolute;
+    right: 72.31px;
+    top: 101.94px;
+    height: 31px;
+
+}
+.gg-search {
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: -4px
+}
+.gg-search::after {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
+#nav-bar li{
+    font-size: 23.46px;
+    font-family: "Inika", serif;
+    font-weight: bold;
+}
+.nav-line-seperator{
+    position:relative;
+    top: 207.5px;
+    height: 1px;;
+}
+.food-category-header{
+    position: relative;
+    top: 249px;
+    text-align: center;
+    font-size: 30.56px;
+    font-family: "Inika", serif;
+}
+.food-category-header > span{
+    color:#C95A0A;
+}
+img{
+    max-width: 323px;
+    height: 593px;;
+   
+}
+.food-category-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1E6E6;
+    position:relative;
+    top: 305px;
+    height:700px;
+    
+}
+.images-text-container div{
+    max-width: 323px;
+    max-height: 627px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images-text-container{
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+    max-height: 627px;
+    width: 1385px;
+}
+.images-text-container > div > div{
+    background-color: #FC6736;
+    font-size:30.56px;
+    color:#ffff;
+    width:244px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 610px;  
+}
+.top-recipes{
+    position: absolute;
+    top: 1038px;
+    font-size: 30.56px;
+    text-align: center;
+    margin-top: 33px;
+    width: 100%;
+    font-family: "Inika", serif;
+}
+.recipe-container{
+    height: 794px;
+    width: 100%;
+    background-color: #F1E6E6;
+    position:absolute;
+    top:1104px;
+    margin-top:26px;
+    display: flex;
+    gap: 200px;
+}
+.pizza-img{
+    width: 440px;
+    height: 691px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 51px;
+}
+.pizza-img > img{
+    max-width:100%;
+    height: 659px;
+    border-radius: 10px;
+}
+.pizza-img > div{
+    background-color: #C95A0A;
+    font-size: 30.56px;
+    color: #fff;
+    width: 257px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 689px;
+}
+
+.recipe-list li:before {
+    content: '✓';
+    color:green;
+    float: left;
+    margin-right: 31px;
+    
+}
+.recipe-text-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+    margin-bottom: 77px;
+}
+.ingredients-heading{
+    text-align: center;
+    color: #F84D15;
+    font-size: 30.56px;
+}
+.ingredients-container{
+    display: flex;
+    gap: 24px;
+    word-wrap: wrap;
+    margin-top: 45px;;
+    margin-bottom: 47px;
+}
+.recipe-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;   
+    height: fit-content;
+    width: 50%;
+}
+.instruction-heading{
+    color:#F84D15;
+    text-align: center;
+    font-size:30.56px;
+    margin-bottom: 13px;
+}
+.instruction-container ol > li{
+    font-weight: bold;
+}
+.instruction-container ol > li > span{
+    position: relative;
+    left: 10px;
+}
+.instruction-container ol > li::marker{
+    font-weight: lighter;  
+}
+.instruction-container ol ul li{
+    list-style: disc;
+    margin-left: 25px;
+}
+.instruction-container ol ul li >span{
+    position: relative;
+    left: 10px;
+}
+.instruction-container{
+    font-size: 15px;
+    font-family: "Inika", serif;
+    word-wrap:wrap;
+}
+.continue-reading{
+    font-size: 20px;
+    color:#F84D15;
+    position: relative;
+    left: -12px;
+    margin-top: 10px;
+}
+.recipe-container-or-book-ad-seperator{
+    position: absolute;
+    top: 1933px;
+    margin-top: 47px;
+    height: 1px;
+    width: 100%;
+}
+.book-ad{
+    height: 554px;
+    width: 100%;
+    position: absolute;
+    top:1966px; 
+    background-color: #806464;
+    margin-top: 80px;
+}
